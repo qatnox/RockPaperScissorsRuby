@@ -7,6 +7,7 @@ else
   a = ARGV[0].downcase
   b = ARGV[1].downcase
 
+  #Checking the combinations
   if a == b
     puts "Draw!"
   elsif (a == "rock" && b == "scissors") ||
